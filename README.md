@@ -49,6 +49,7 @@ def bfs(graf, mulai, tujuan):
 
 print(bfs(peta1,'B','F'))
 
+DFS Pencarian dilakukan pada satu node dalam setiap level dari yang paling kiri. Jika pada level yang paling dalam, solusi belum ditemukan, maka pencarian dilanjutkan pada node sebelah kanan. Node yang kiri dapat dihapus dari memori. Jika pada level yang paling dalam tidak ditemukan solusi, maka pencarian dilanjutkan pada level sebelumnya.
 DFS 
 #contoh peta dari UDINUS(B) ke Lawang Sewu(F)
 peta =  {'A':set(['B']),
